@@ -1,0 +1,161 @@
+body {
+    background: url('https://ts1.cn.mm.bing.net/th/id/R-C.91b4dcc3e03d2e3ad84513bc4c03e05f?rik=XGKwZjybdfFjfA&riu=http%3a%2f%2fcdn.sdk.caohua.com%2fwww%2fzhuanqu%2f15260284934608.jpg&ehk=gEyd1oNUAo4uF1gTDvDtD%2fO8%2f8LFxbtsLCNtvdCMFkw%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover;
+}
+.register {
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    opacity: 0.7;
+    /* 自适应居中 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nr {
+    margin: 0 auto;
+    width: 500px;
+    height: 450px;
+    margin-top: 100px;
+    font-size: 20px;
+}
+.return{
+    margin-top: 60px;
+    font-size: large;
+    border-radius: 15px;
+}
+.return>a {
+    text-decoration: dashed;
+    color: #000000;
+}
+
+.return::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.input1 {
+    width: 400px;
+    height: 30px;
+    padding: 8px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    box-shadow: 0 0 2px 1px #0a0a0a;
+}
+
+.iphone {
+    width: 295px;
+    height: 30px;
+    padding: 8px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    box-shadow: 0 0 2px 1px #0a0a0a;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    /* 去除聚焦时的虚线 */
+    box-shadow: 0 0 2px 2px #007bff;
+    /* 添加聚焦时的阴影 */
+}
+
+input[type="submit"] {
+    padding: 8px;
+    width: 420px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    background: linear-gradient(to right, #579eeb, #0f03b9);
+}
+
+input[type="submit"]:hover {
+    background-color: #0066cc;
+    outline: none;
+
+}
+
+.input1 {
+    left: 100px;
+}
+
+.se {
+    width: 100px;
+    height: 50px;
+    padding: 8px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    box-shadow: 0 0 2px 1px #0a0a0a;
+}
+
+#dl {
+    margin-top: 10px;
+    width: 400px;
+    border-radius: 2px;
+    box-shadow: 0 2px 15px rgba(26, 24, 24, 0.1);
+}
+
+#dl>a {
+    color: #3A8BFF;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.dl-1{
+    padding-left: 170px;
+    padding-bottom: 30px;
+   font-size: 40px;
+}
+#sms{
+   padding-left: 210px;
+}
+#xy {
+    display: flex;
+    font-size: 10px;
+    width: 420px;
+    align-items: center;
+    color: #78787a;
+    border-radius: 20px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+#xy p {
+    margin-right: 10px;
+}
+
+#xy a {
+    margin: 0 5px;
+    /* 调整左右外边距 */
+    color: #3A8BFF;
+}
+
+#qt {
+    bottom: 180px;
+  margin-left: 140px;
+    border-radius: 20px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    text-decoration: dashed;
+    color: #78787a;
+}
+
+@media only screen and (max-width: 1200px) {
+    .register {
+        width: 95%;
+        max-width: 1200px;
+    }
+}
